@@ -5,13 +5,15 @@ body{
 
 .content{
     position: relative;
-    padding-left: 10%;
+    min-width: 1100px;
     padding-right: 10%;
+    padding-left: 10%;
 }
 
 .main{
-    width: 100%;
-    position: relative;
+    min-width: 100%;
+    float: left;
+    position: sticky;
     margin-top: 52px;
     height: 635px;
     border-radius: 2px;
@@ -58,7 +60,7 @@ body{
     position: absolute;
     font-family: "SF UI Text";
     font-size: 35px;
-    color: black;
+    color: #be3737;
     left: 330px;
     top: 190px;
     width: 230px;
