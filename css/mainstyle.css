@@ -1,0 +1,147 @@
+body{
+    height: 50px;
+    margin: 0px;
+}
+
+.main{
+    position: relative;
+    margin-top: 52px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 635px;
+    border-radius: 2px;
+    background: white;
+    box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logotype{
+    position: absolute;
+    top: 70px;
+    left: -20px;
+}
+
+#screen{
+    position: absolute;
+    top: 35px;
+    left: 730px;
+}
+
+#aptoide{
+    position: absolute;
+    top: 530px;
+    left: 720px;
+}
+
+#gp{
+    position: absolute;
+    top: 520px;
+    left: 800px;
+}
+
+#tutorial{
+    position: absolute;
+    font-family: "SF UI Text";
+    font-size: 20px;
+    color: #be3737;
+    width: 1000px;
+    text-align: match-parent;
+    top: 50px;
+    left: 50px;
+}
+
+#title{
+    position: absolute;
+    font-family: "SF UI Text";
+    font-size: 35px;
+    color: #be3737;
+    left: 330px;
+    top: 190px;
+    width: 230px;
+}
+
+#description{
+    position: absolute;
+    font-family: "SF UI Text";
+    font-size: 20px;
+    color: #be3737;
+    left: 330px;
+    top: 240px;
+    width: 350px;
+    text-align: match-parent;
+}
+
+.menu{
+    z-index: 1;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    background-color: #be3737;
+    height: 40px;
+    width: 100%;
+    text-align:center;
+    padding-left: 16px;
+    overflow-wrap: break-spaces;
+    box-shadow: black 1px 0px 3px;
+}
+
+#logo{
+    float: left;
+    margin-left: 64px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#video{
+    position: absolute;
+    margin-top:  100px;
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: sticky;
+    text-align: center;
+    display:inline;
+    vertical-align: center;
+}
+
+@keyframes in{
+    from {color: ivory}
+    to {color: gainsboro}
+}
+
+
+@keyframes out{
+    from {color: gainsboro}
+    to {color: ivory}
+}
+
+li {
+    float: left;
+    color: ivory;
+    margin-left: 200px;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "SF UI Text";
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+li a{
+    animation-name: out;
+    animation-duration: 250ms;
+    color: ivory;
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    animation-name: in;
+    animation-duration: 250ms;
+    color: gainsboro;
+}
